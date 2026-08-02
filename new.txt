@@ -1,1 +1,23 @@
+<<<<<<< HEAD
 2
+=======
+1
+>t add new.txt
+
+
+
+# 3. 设置 push.default
+
+git config --global push.default simple
+
+
+
+# 4. 拉取远程更新
+
+git pull origin main --rebase
+
+
+
+# 5. 推送
+
+git push origin main>>>>>> dev
